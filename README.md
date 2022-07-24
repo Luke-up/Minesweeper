@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Minesweeper
+A React.js project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is a simple re-creation of the game Minesweeper, which became popular through the Microsoft version released in 1990.
 
-## Available Scripts
+In the game a grid is populated with a varying amount of tiles. Some of which are acceptable to click, and some that are not. The goal is to find the tiles that are not acceptable to click.
+The project includes several react components that are interactable and serve to pass variables between one another to progress in the game.
+This project was create to display profficiency in working with basic **Javascript** concepts like arrays, loops, conditionals. As well as **React** components, state, and interaction between elements through recursion.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+## Table of contents
+1. Description
+2. Table of contents
+3. Installation
+4. Usage
+5. Credits
+---
+## Installation
+- Move files to a local directory.
+- In the directory run npm install from the command line
+- Once node modules are installed run npm start from the command line
+---
+## Usage
+-Choose values from the start screen to generate the game grid.
+-Once a grid size and a bomb amount are selected press the generate game button.
+-Click a tile on the grid to begin.
+-Valid clicks will reveal either a number, which is the number of surrounding invalid tiles or it will reveal a series of valid tiles.
+-Invalid clicks will reveal a bomb tile which will end the game.
+-Right clicking on all the tiles that are invalid will win the game, as will revealing all the valid tiles.
+-At any point the information button on the left can be selected with will display these rules again.
+-Also at any point the user can swich back to the original screen by clicking new game.
+---
+## Credits
+All works and code are attributed the author Luke Paine in conjuction with the Hyperion Dev Web development course.
