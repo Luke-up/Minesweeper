@@ -1,0 +1,40 @@
+/*Styling for an ordinary tile*/
+.tile {
+    border:dashed 1px rgb(255, 79, 79);
+    padding:2px;
+}
+/*Small change to the border to show target tile*/
+.tile:hover{
+    border:solid 2.5px rgb(255, 63, 63);
+}
+/*Styling to show a tile next to a bomb was selected*/
+.numberClicked {
+    background-color:rgba(255, 255, 255, 0.575);
+    border: solid 1px grey
+}
+/*Styling to show an image of a bomb*/
+.bombClicked {
+    background-image:url(./Images/bomb.svg);
+    border: solid 1px grey;
+    background-size: contain, cover;
+}
+/*Styling to show an image of a flag*/
+.flagClicked{
+    background-image:url(./Images/flag.svg);
+    background-size: contain, cover;
+}
+/*Main grid has a constant size and a backround image of water*/
+.mainGrid {
+background-image:url(./Images/water.jpg);
+height:72vh;
+width:72vh;
+border-radius:10px;
+}
+/*Second, slightly larger div behind the mainGrid to act as a border*/
+.outerGrid{
+    padding:1vh;
+    height:74vh;
+    width:74vh;
+    background-color:black;
+    border-radius:10px;
+}
