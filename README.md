@@ -21,14 +21,14 @@ This project was create to display profficiency in working with basic **Javascri
 - Once node modules are installed run npm start from the command line
 ---
 ## Usage
--Choose values from the start screen to generate the game grid.
--Once a grid size and a bomb amount are selected press the generate game button.
--Click a tile on the grid to begin.
--Valid clicks will reveal either a number, which is the number of surrounding invalid tiles or it will reveal a series of valid tiles.
--Invalid clicks will reveal a bomb tile which will end the game.
--Right clicking on all the tiles that are invalid will win the game, as will revealing all the valid tiles.
--At any point the information button on the left can be selected with will display these rules again.
--Also at any point the user can swich back to the original screen by clicking new game.
+- Choose values from the start screen to generate the game grid.
+- Once a grid size and a bomb amount are selected press the generate game button.
+- Click a tile on the grid to begin.
+- Valid clicks will reveal either a number, which is the number of surrounding invalid tiles or it will reveal a series of valid tiles.
+- Invalid clicks will reveal a bomb tile which will end the game.
+- Right clicking on all the tiles that are invalid will win the game, as will revealing all the valid tiles.
+- At any point the information button on the left can be selected with will display these rules again.
+- Also at any point the user can swich back to the original screen by clicking new game.
 ---
 ## Credits
 All works and code are attributed the author Luke Paine in conjuction with the Hyperion Dev Web development course.
